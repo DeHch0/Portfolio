@@ -1,0 +1,46 @@
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 1%;
+    font-size: 0.85em;
+}
+
+.list-items {
+    display: inline-block;
+    padding: 1%;
+}
+
+@keyframes colorChange {
+    from {color: grey;}
+    to {color: goldenrod;}
+  }
+
+.list-items:not(:first-child) a:hover  {
+    animation-name: colorChange;
+    animation-duration: 0.5s;
+    color:goldenrod;
+}
+
+.list-items:nth-child(1) {
+    text-align: left;
+    float: left;
+    padding-right:15%;
+    padding-left: 5%;
+}
+
+.list-items:nth-child(1) a {
+    font-size: 1.4rem;
+    color:black;
+}
+
+.list-items a span:nth-child(1) {
+    color:goldenrod;
+    font-weight: bold;
+}
+
+.list-items a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.25em;
+
+}

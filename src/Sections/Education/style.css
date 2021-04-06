@@ -1,0 +1,106 @@
+.skills {
+    padding:10% 0;
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.education-skills {
+    /* text-align: center; */
+    display: inline-block;
+    width: 46%;
+    padding:2%;
+}
+.skills-style {
+    /* text-align: center; */
+    display: inline-block;
+    width: 46%;
+    padding: 2%;
+    vertical-align: top;
+}
+
+.skills-style h4 {
+    color: grey;
+    font-size: 2em;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 55%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Start of Skill section stylize */
+
+
+.skill-set {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 3% 0;
+    border-bottom: 1px solid rgba(218, 165, 32, 0.425);
+    /* border-left: 1px solid rgb(241, 241, 241); */
+}
+
+.skill-period {
+    position: relative;
+    right: 40px;
+    display: inline-block;
+    border: 1px solid goldenrod;
+    padding: 7px;
+    margin: 3% 2%;
+    border-radius: 40px;
+}
+
+.university {
+    color: grey;
+    font-weight: 300;
+}
+
+.faculty {
+    font-size: 1.25rem;
+    padding-bottom: 12px;
+}
+
+.acquired-skills {
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.acquired-skills ul li {
+    display: inline-block;
+    width: 35%;
+    padding: 4px 0;
+}
+
+.courses {
+    display: block;
+    color: goldenrod;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 810px) { 
+    .skills {
+        text-align: center;
+    }
+    
+    .skills-style {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .skills-style h4 {
+        background: linear-gradient(90deg, #FC466B 30%, #3F5EFB 75%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .acquired-skills ul li { 
+        display: block;
+        width: 80%;
+    }
+
+}
+
+/* End of Skill section stylize */
