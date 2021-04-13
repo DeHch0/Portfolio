@@ -4,7 +4,7 @@ const Education = () => {
 
 
     return (
-        <div className="skills">
+        <div className="skills" id='education'>
 
             <div className="skills-style">
                 <h4>Education</h4>

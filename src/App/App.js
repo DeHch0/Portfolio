@@ -24,16 +24,18 @@ function App() {
 
           <Route exact path='/'>
             <Home/>
+            <Education/>
             <Facts/>
+            <Contact/>
           </Route>
 
-          <Route path='/resume'>
+          {/* <Route path='/resume'>
               <Education/>
           </Route>
 
           <Route path='/contact'>
               <Contact/>
-          </Route>
+          </Route> */}
 
         </Switch>
     </Router>

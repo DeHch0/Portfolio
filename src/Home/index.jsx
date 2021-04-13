@@ -8,7 +8,7 @@ import { mdiAccount, mdiGithub, mdiLinkedin, mdiFacebook } from '@mdi/js';
 const Home = () => {
 
     return (
-        <div className="main">
+        <div className="main" id='home'>
             <div className="left-side">
                 <img src={process.env.PUBLIC_URL + 'snn.jpg'} alt=""/>
             
