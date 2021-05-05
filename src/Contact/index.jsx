@@ -7,9 +7,9 @@ const Contact = () => {
         <div className="contact-container" id='contact'>
             <h4 className='contact-heading'>Contact me</h4>
 
-            <div className="contact-form">
+            <div className="contact-section">
 
-                <form>
+                <form className="contact-form">
                     <h5 className='contact-help'>How Can I Help You :)</h5>
                     <div className="input-field">
                         <label htmlFor="full-name">Full Name:</label>
