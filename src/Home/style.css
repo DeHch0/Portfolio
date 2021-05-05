@@ -99,6 +99,6 @@
 
 @media only screen and (max-width: 750px) {
     .main{width: 80%;}
-    .left-side{width: 100%; margin: 0 auto;}
+    .left-side{width: 100%; margin: 4% auto;}
     .right-side{width: 100%; text-align: center; margin: 0 auto;}
 }

@@ -8,7 +8,7 @@ const Facts = () => {
 
 
     return (
-        <div className="facts" id='facts'>
+        <div className="facts">
 
             <h3 className='facts-heading'>Facts</h3>
 

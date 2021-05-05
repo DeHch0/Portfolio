@@ -22,14 +22,15 @@
     height: 170px;
     padding: 3%;
     margin: 20px;
-    border: 1px solid rgb(185, 185, 185);
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
+    border: 1px solid goldenrod;
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 12%); */
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90%;
     text-align: center;
     /* background-color: rgb(247, 247, 247); */
-    box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.25);
 }
 
 .fun-fact p {
@@ -37,7 +38,8 @@
 }
 
 .fun-fact i {
-    color: rgb(32, 218, 141);
+    /* color: rgb(32, 218, 141); */
+    color: goldenrod;
     font-size: 2.4rem;
     padding: 15px 0;
 }
@@ -52,11 +54,12 @@
     font-size: 2rem;
     font-weight: 500;
     padding-bottom: 15px;
-    color: rgba(32, 218, 131, 0.541);
+    /* color: rgba(32, 218, 131, 0.541); */
+    color: goldenrod;
 }
 
 .fun-fact:hover {
-    box-shadow: inset 0px 0px 15px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 15px 4px goldenrod;
 }
 
 .opalq {
